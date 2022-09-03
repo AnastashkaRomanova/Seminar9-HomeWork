@@ -17,7 +17,7 @@ int userNumber2 = Convert.ToInt32(Console.ReadLine());
 string NumbersRec(int userNumber1, int userNumber2)
 {
         
-        if (userNumber1 < userNumber2 )
+        if (userNumber1 <= userNumber2 )
     {
     
         return $"{userNumber2} " + NumbersRec( userNumber1, userNumber2-1);
